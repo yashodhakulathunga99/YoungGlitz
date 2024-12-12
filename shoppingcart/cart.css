@@ -1,0 +1,182 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 8, 2023, 9:19:47 PM
+    Author     : Nusnan
+*/
+
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+.cart1 {
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.cart1 h2 {
+  margin-top: 0;
+}
+
+.cart-items1 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-item1 img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.item-details1 {
+  flex-grow: 1;
+}
+
+.item-details1 h3 {
+  margin-top: 0;
+}
+
+.item-quantity1 {
+  width: 50px;
+}
+
+.remove-btn1 {
+  background-color: #4f4f4f;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.checkout-btn1 {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container1 {
+  background-color: #fff;
+  padding: 5px 20px 15px 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.input1[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.label1 {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container1 {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn1 {
+  background-color: #6BBD99;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn1:hover {
+  background-color: #45a049;
+}
+
+.a1 {
+  text-decoration: none;
+  color: #6BBD99;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+
+

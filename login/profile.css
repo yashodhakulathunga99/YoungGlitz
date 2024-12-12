@@ -1,0 +1,20 @@
+.Submit-Btn{
+	width: 100%;
+	height: 42px;
+	border: 0px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 17px;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	transition: 0.4s;
+	background-color: #6BBD99;
+	color: #fff;
+}
+.Submit-Btn:hover{
+	background-color: #6BBD99 !important;
+	color: #fff;
+	
+}
+
